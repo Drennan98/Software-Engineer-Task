@@ -14,6 +14,7 @@ For a longer term project, the archictecture needs to be scalable, maintainable,
 
 - **Error Handling:** Add better error handling on the frontend as to why a script can't be generated. 
 
+
 ## 2. Backend Changes:
 
 - **Database Integration:** This would be vital for further development as it would track usage analytics. A database like PostgreSQL would be useful. 
@@ -23,6 +24,7 @@ For a longer term project, the archictecture needs to be scalable, maintainable,
 ## 3. API & Load Handling
 
 - **Queue Management:** For high traffic, use a job queue system to process requests and avoid delays. 
+
 
 ## 4. Deployment
 
@@ -35,3 +37,13 @@ For a longer term project, the archictecture needs to be scalable, maintainable,
 - **Kanban Board:** A Kanban Board to order tasks and manage backlog. See screenshot of my 4th project from my diploma. 
 
 ![Kanban Board](images/kanban.png)
+
+- **MoSCoW Prioritization:** For prioritising tasks and implementing the "Must Have"'s. 
+
+## 6. Monitoring
+
+- **Datadog:** Track performance and server health. 
+
+## 7. UX/UI Testing
+
+- Conduct user testing and gather feedback ensuring its intuitive and easy to use. Using Lighthouse audits from Google Dev Tools and using code validators and linters to ensure everything is in order. 
