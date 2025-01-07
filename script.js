@@ -14,7 +14,7 @@ document.getElementById("generate-button").addEventListener("click", async () =>
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer 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`, 
+          "Authorization": `Bearer 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`, 
         },
         body: JSON.stringify({
           model: "text-davinci-003",
@@ -24,6 +24,7 @@ document.getElementById("generate-button").addEventListener("click", async () =>
       });
   
       const data = await response.json();
+      console.log(data);
       const intro = data.choices[0]?.text.trim();
       outputBox.textContent = intro || "No intro generated. Please try again.";
     } catch (error) {
